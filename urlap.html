@@ -3,45 +3,87 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Űrlap</title>
+    <style>
+body {
+   background-image: url('img/background3.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+.urlap1p {
+  color:white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+
+.urlaph1 {
+  text-align: center;
+
+}
+     
+.urlaph3 {
+  text-align: center;
+  color: rgb(124, 104, 238);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(124, 104, 238);
+}
+
+.active {
+  background-color: #000000;
+}
+     </style>
 </head>
 <body>
-    <style>
-        p {
-            color:white
-             }
-     </style>
-    <style>
-        body {
-            background-image: url('background8.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-             }
-     </style>
-     <style>
-        p {
-          text-align: center;
-            }
-     </style>
-     <style>
-        h1 {
-          text-align: center;
-            }
-     </style>
-     <style>
-        h3 {
-          text-align: center;
-            }
-     </style>
-     <a p style="color:rgb(0, 0, 0);"href="hazi.html">Vissza a házikra</a>
-    </p>
-<p>
+       <p>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="setup.html">Setup</a></li>
+         <li><a href="keplink.html">Képlink</a></li>
+         <li><a href="lista.html">Lista</a></li>
+         <li><a href="orarend.html">Órarend</a></li>
+         <li><a class="active" href="urlap.html">Űrlap</a></li>
+         <li><a href="evszak.html">Évszakok</a></li>
+        </ul>
+       </p>
+    <div class="urlaph1">
     <h1>Menő Játék</h1>
 </p>
+</div>
+<div class="urlap1p">
+    <dic class="urlaph3">
 <p>
     <h3>Személyes adatok</h3>
 </p>
+</dic>
 <p>
     Vezetéknév:
     <input type='text'>
@@ -66,9 +108,11 @@
     Profilkép 
     <input type='file'>
 </p>
+<div class="urlaph3">
 <p>
     <h3>Játék adatok</h3>
 </p>
+</div>
 <p>
     Felhasználónév:
     <input type='text'>
@@ -116,5 +160,6 @@
 <p>
 <input type='submit' value="Létrehozás">
 </p>
+</div>
 </body>
 </html>

@@ -3,53 +3,105 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Setup</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Setup</title>
+    <style>
+body {
+  background-image: url('img/background3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.setupkep {
+  text-align: center;
+  width:"700";
+  height:"500";
+ }
+
+.h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: rgb(124, 104, 238);
+}
+
+.active {
+  background-color: #000000;
+}
+
+.spec {
+ color: rgb(124, 104, 238);
+}
+
+</style> 
 </head>
 <body>
-    <a p style="color:MediumSlateBlue;"href="index.html">Vissza a főoldalra</a>
 
-<style>
-        h1 {text-align: center;}
-</style>
+    <p>
+      <ul>
+        <li class="li"><a href="index.html">Home</a></li>
+        <li class="li"><a class="active" href="setup.html">Setup</a></li>
+        <li class="li"><a href="keplink.html">Képlink</a></li>
+        <li class="li"><a href="lista.html">Lista</a></li>
+        <li class="li"><a href="orarend.html">Órarend</a></li>
+        <li class="li"><a href="urlap.html">Űrlap</a></li>
+        <li class="li"><a href="evszak.html">Évszakok</a></li>
+        </ul>
+       </p>
     <br>
-        <h1 strong p style="color:MediumSlateBlue;">A setupom</h1>
- </p>
+
+    <div class="h1">
+        <h1 strong p style="color:rgb(0, 0, 0);">A setupom</h1>
+     </div>
+    </p>
  
- <h2 p strong style="color:MediumSlateBlue;">PC specifikációk</h2>
-    <li p style="color:MediumSlateBlue;">Motherboard: Asus rog Strix B360-F</li>
-    <li p style="color:MediumSlateBlue;">CPU: I5 9400F</li>
-    <li p style="color:MediumSlateBlue;">GPU: Asus Rog Strix AMD RX580</li>
-    <li p style="color:MediumSlateBlue;">RAM: HyperX Predator 2x8GB DDR4 3000mhz</li>
-    <li p style="color:MediumSlateBlue;">M.2 SSD: Kingston 500GB</li>
-    <li p style="color:MediumSlateBlue;">HDD: 1TB</li>
-    <li p style="color:MediumSlateBlue;">Power supply: Asus Rog Strix 750W (moduláris)</li>
-    <li p style="color:MediumSlateBlue;">CPU cooler: Arctic Freezer 34Esport Duo (black)</li>
-    <li p style="color:MediumSlateBlue;">Case: DeepCoole Matrexx 55 V3</li>
-</p>
-<style>
-        body {
-            background-image: url('background3.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-             }
-</style>
-<style>
-        div {
-          text-align: center;
-            }
-</style>
-      
-    <div>
-        <img src="setup2.jpg" width="700" height="500">
+ <h2 strong style="color:MediumSlateBlue;">PC specifikációk</h2>
+ <div class="spec">
+    <li>Motherboard: Asus rog Strix B360-F</li>
+    <li>CPU: I5 9400F</li>
+    <li>GPU: Asus Rog Strix AMD RX580</li>
+    <li>RAM: HyperX Predator 2x8GB DDR4 3000mhz</li>
+    <li>M.2 SSD: Kingston 500GB</li>
+    <li>HDD: 1TB</li>
+    <li>Power supply: Asus Rog Strix 750W (moduláris)</li>
+    <li>CPU cooler: Arctic Freezer 34Esport Duo (black)</li>
+    <li>Case: DeepCoole Matrexx 55 V3</li>
+</div>
+  <div class="setupkep">
+    <img src="img/setup2.jpg" width="700" height="500">
+  </div>
+
+    <h2 div class="setuph2" p strong style="color:MediumSlateBlue;">Perifériák</h2>
+    <div class="spec">
+    <li>Fejhallgató: Logitech G733 (white)</li>
+    <li>Egér: Logitech G502 Hero</li>
+    <li>Billentyűzet: Gamakay K61 (black switch)</li>
+    <li>Egérpad: SPC Gear Endorphy Cordura Speed M</li>
+    <li>Monitor: LG 4k 1ms 60hz</li>
     </div>
-    <h2 p strong style="color:MediumSlateBlue;">Perifériák</h2>
-    <li p style="color:MediumSlateBlue;">Fejhallgató: Logitech G733 (white)</li>
-    <li p style="color:MediumSlateBlue;">Egér: Logitech G502 Hero</li>
-    <li p style="color:MediumSlateBlue;">Billentyűzet: Gamakay K61 (black switch)</li>
-    <li p style="color:MediumSlateBlue;">Egérpad: SPC Gear Endorphy Cordura Speed M</li>
-    <li p style="color:MediumSlateBlue;">Monitor: LG 4k 1ms 60hz</li>
-</p>
+    <br>
     <iframe width="500" height="300" src="https://www.youtube.com/embed/2aCWjR4-dUw" title="The BEST Wireless RGB Gaming Headset? - Logitech G733 Lightspeed Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
