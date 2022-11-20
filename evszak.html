@@ -8,7 +8,7 @@
 <style>
 body {
 background-image: url('background3.jpg');
- background-repeat: no-repeat;
+background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
 }
@@ -41,12 +41,90 @@ li a:hover:not(.active) {
   background-color: #000000;
 }
 
+.winter {
+border: 1px dotted rgb(0, 0, 0);
+text-align: center;
+width: 350px;
+height: 200px;
+float: left;
+color: rgb(0, 0, 0);
+background-image: url('forza.winter.jpg');
+background-size: 350px 200px;
+background-repeat: no-repeat;
+border-style: solid;
+margin: 30px;
+margin-left: 280px;
+}
+
+.winter:hover {
+  transform: scale(1.1);
+}
+
+.spring {
+border: 1px dotted rgb(0, 0, 0);
+text-align: center;
+width: 350px;
+height: 200px;
+float: left;
+color: rgb(255, 255, 255);
+background-image: url('forza.spring.jpg');
+background-size: 350px 200px;
+background-repeat: no-repeat;
+border-style: solid;
+margin: 30px;
+margin-left: 35px;
+}
+
+.spring:hover {
+  transform: scale(1.1);
+}
+
+.summer {
+border: 1px dotted rgb(0, 0, 0);
+text-align: center;
+width: 350px;
+height: 200px;
+float: left;
+color: rgb(0, 0, 0);
+background-image: url('forza.summer.jpg');
+background-size: 350px 200px;
+background-repeat: no-repeat;
+border-style: solid;
+margin: 30px;
+margin-right: 35px;
+}
+
+.summer:hover {
+  transform: scale(1.1);
+}
+
+.autumn {
+border: 1px dotted rgb(0, 0, 0);
+text-align: center;
+width: 350px;
+height: 200px;
+float: left;
+color: rgb(0, 0, 0);
+background-image: url('forza.autumn.jpg');
+background-size: 350px 200px;
+background-repeat: no-repeat;
+border-style: solid;
+margin: 30px;
+margin-right: 200px;
+
+}
+
+.autumn:hover {
+  transform: scale(1.1);
+}
+
 </style>
 </head>
 <body>
    <p>
     <ul>
      <li><a href="index.html">Home</a></li>
+     <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
      <li><a href="setup.html">Setup</a></li>
      <li><a href="keplink.html">Képlink</a></li>
      <li><a href="lista.html">Lista</a></li>
@@ -55,6 +133,17 @@ li a:hover:not(.active) {
      <li><a class="active" href="evszak.html">Évszakok</a></li>
     </ul>
    </p>
-   <h1>Karbantartás alatt!</h1>
+    <div class="winter" >
+      <p><h1>Tél</h1></p>
+    </div>
+    <div class="spring">
+      <p><h1>Tavasz</h1></p>
+    </div>
+    <div class="summer">
+      <p><h1>Nyár</h1></p>
+    </div>
+    <div class="autumn">
+      <p><h1>Ősz</h1></p>
+    </div>
 </body>
 </html>
