@@ -12,11 +12,22 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style>
-    body {
+
+html {
+height: 100%;
+box-sizing: border-box;
+}
+
+body {
 background-image: url('kepek/background3.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
+position: relative;
+margin: 0;
+min-height: 100%;
+padding-bottom: 0;
+box-sizing: inherit;
 }
 
 .h1 {
@@ -61,6 +72,7 @@ color: #000000;
 text-shadow:0 0 3px rgb(124, 104, 238);
 text-align: center;
 }
+
 footer {
   text-align: center;
   padding: 3px;
@@ -68,7 +80,49 @@ footer {
   color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(124, 104, 238);
+  border-width: 1px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
 }
+
+.hf {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.spc {
+width:"900";
+height:"500";
+border: rgb(124, 104, 238);
+border-style: solid;
+border-width: 3px 3px;
+width: 900px;
+height: 500px;
+margin: auto;
+}
+
+.lg {
+width:"650";
+height:"500";
+border: rgb(124, 104, 238);
+border-style: solid;
+border-width: 3px 3px;
+width: 650px;
+height: 500px;
+margin: auto;
+}
+
 </style>
 </head>
 <body>
@@ -78,7 +132,7 @@ footer {
       <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
       <li><a href="setup.html">Setup</a></li>
       <li><a a class="active" href="elado.html">Eladó cuccok</a></li>
-      <li><a>Házi feladatok:</a></li>
+      <li class="hf">Házi feladatok: →</li>
       <li><a href="keplink.html">Képlink</a></li>
       <li><a href="lista.html">Lista</a></li>
       <li><a href="orarend.html">Órarend</a></li>
@@ -87,23 +141,26 @@ footer {
       <li><a href="szamologep.html">Számológép</a></li>
      </ul>
     </p>
-    <h4 style="color: white;">Ha érdekel valamelyik, írj rám instán!</h4>
-<div class="h1">
-    <h1 strong style="color:rgb(0, 0, 0);">Eladó cuccok</h1>
- </div>
-    <h2 class="h2" p style="color:rgb(0, 0, 0);">SPC Gear Viro Plusz Gaming Fejhallgató</h2></p>
-    <h3 class="h3" style="color:rgb(255, 255, 255);">Ára:14.000Ft</h3>
-    <div class="">
-        <img src="kepek/spc.jpg" width="900" height="500">
-    </div>
-    <h2 class="h2" p style="color:rgb(0, 0, 0);">LG 4k 27" ips monitor</h2></p>
-    <h3 class="h3" style="color:rgb(255, 255, 255);">Ára:69.000Ft</h3>
-    <div class="">
-        <img src="kepek/monitor.jpg" width="650" height="500">
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
-    <footer>
-        <p>Az oldalt készítette: Izsépi Dávid<br>
-            <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
-    </footer>
-        </p>
+
+<h4 style="color: white;">Ha érdekel valamelyik, írj rám instán!</h4>
+
+<p class="h1">
+<h1 strong style="color:rgb(0, 0, 0);">Eladó cuccok</h1>
+</p>
+
+<h2 class="h2" p style="color:rgb(0, 0, 0);">SPC Gear Viro Plusz Gaming Fejhallgató</h2></p>
+<h3 class="h3" style="color:rgb(255, 255, 255);">Ára:14.000Ft</h3>
+<img class="spc" src="kepek/spc.jpg" width="900" height="500">
+
+<h2 class="h2" p style="color:rgb(0, 0, 0);">LG 4k 27" ips monitor</h2></p>
+<h3 class="h3" style="color:rgb(255, 255, 255);">Ára:69.000Ft</h3>
+<img class="lg" src="kepek/monitor.jpg" width="650" height="500">
+
+<br><br><br><br><br><br><br><br>
+<p>
+<footer>
+<p>Az oldalt készítette: Izsépi Dávid<br>
+<a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
+</footer></p>
+</body>
+</html>

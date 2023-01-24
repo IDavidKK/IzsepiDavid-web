@@ -12,11 +12,22 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style>
+
+html {
+height: 100%;
+box-sizing: border-box;
+}
+
 body {
 background-image: url('kepek/background3.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
- background-size: 100% 100%;
+background-size: 100% 100%;
+position: relative;
+margin: 0;
+min-height: 100%;
+padding-bottom: 0;
+box-sizing: inherit;
 }
 
 .urlap1p {
@@ -70,14 +81,33 @@ background-color: #000000;
 }
 
 footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #333;
-  color: rgb(255, 255, 255);
-  border-style: solid;
-  border-color: rgb(124, 104, 238);
-
+text-align: center;
+padding: 3px;
+background-color: #333;
+color: rgb(255, 255, 255);
+border-style: solid;
+border-color: rgb(124, 104, 238);
+border-width: 1px;
+position: absolute;
+bottom: 0%;
+right: 0%;
+left: 0%;
 }
+
+.hf {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
 </style>
 </head>
 <body>
@@ -87,7 +117,7 @@ footer {
          <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
          <li><a href="setup.html">Setup</a></li>
          <li><a href="elado.html">Eladó cuccok</a></li>
-        <li><a>Házi feladatok:</a></li>
+         <li class="hf">Házi feladatok: →</li>
          <li><a href="keplink.html">Képlink</a></li>
          <li><a href="lista.html">Lista</a></li>
          <li><a href="orarend.html">Órarend</a></li>
@@ -96,15 +126,15 @@ footer {
          <li><a href="szamologep.html">Számológép</a></li>
         </ul>
        </p>
+
     <div class="urlaph1">
-    <h1>Menő Játék</h1>
+        <h1>Menő Játék</h1>
     </div>
 
-    <div class="urlaph3">
-<p>
-    <h3>Személyes adatok</h3>
-</p>
-</div>
+<div class="urlaph3"><p>
+<h3>Személyes adatok</h3>
+</p></div>
+
 <p>
     Vezetéknév:
     <input type='text'>
@@ -182,12 +212,10 @@ footer {
 <input type='submit' value="Létrehozás">
 </p>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>
-    <footer>
-            <p>Az oldalt készítette: Izsépi Dávid<br>
-            <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
-          </footer>
-        </p>
+<p>
+<footer>
+    <p>Az oldalt készítette: Izsépi Dávid<br>
+    <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
+</footer></p>
 </body>
 </html>

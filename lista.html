@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lista</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Lista</title>
+<link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 <style>
+html {
+height: 100%;
+box-sizing: border-box;
+}
+
 body {
 background-image: url('kepek/background3.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 100% 100%; 
+background-size: 100% 100%;
+position: relative;
+margin: 0;
+min-height: 100%;
+padding-bottom: 5rem;
+box-sizing: inherit;
 }
 
 .ul {
@@ -73,18 +84,37 @@ footer {
   color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(124, 104, 238);
+  border-width: 1px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+}
 
+.hf {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 </style>
 </head>
 <body>
+
   <p>
     <ul class="ul">
         <li class="li"><a href="index.html">Home</a></li>
         <li class="li"><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
         <li class="li"><a href="setup.html">Setup</a></li>
         <li class="li"><a href="elado.html">Eladó cuccok</a></li>
-        <li class="li"><a>Házi feladatok:</a></li>
+        <li class="hf">Házi feladatok: →</li>
         <li class="li"><a href="keplink.html">Képlink</a></li>
         <li class="li"><a class="active" href="lista.html">Lista</a></li>
         <li class="li"><a href="orarend.html">Órarend</a></li>
@@ -93,7 +123,9 @@ footer {
         <li class="li"><a href="szamologep.html">Számológép</a></li>
     </ul>
   </p>
+
   <h1>Tantárgy lista</h1>
+
   <h2>A kedvenc tantárgyaim</h2>
 <ul>
   <li>Töri</li>
@@ -102,18 +134,15 @@ footer {
 </ul>  
 
   <h2>A kedvenc tantárgyaim rangsorolva</h2>
-
 <ol>
   <li>Tesi</li>
   <li>IKT</li>
   <li>Töri</li>
 </ol> 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>
-    <footer>
-            <p>Az oldalt készítette: Izsépi Dávid<br>
-            <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
-          </footer>
-        </p>
+<p>
+<footer>
+<p>Az oldalt készítette: Izsépi Dávid<br>
+<a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
+</footer></p>
 </body>
 </html>

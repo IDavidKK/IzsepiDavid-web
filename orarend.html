@@ -12,15 +12,29 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style>
+
+html {
+height: 100%;
+box-sizing: border-box;
+}
+
 body {
 background-image: url('kepek/background3.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
-background-size: 100% 100%; 
+background-size: 100% 100%;
+position: relative;
+margin: 0;
+min-height: 100%;
+padding-bottom: 80px;
+box-sizing: inherit;
 }
+
 .table, th, td {
 border:1px solid rgb(124, 104, 238);
+text-align: center;
 }
+
 h1 {
 text-align: center;
 text-shadow: 0 0 3px rgb(124, 104, 238);
@@ -65,7 +79,25 @@ footer {
   color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(124, 104, 238);
+  border-width: 1px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+}
 
+.hf {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 </style>
 </head>
@@ -77,7 +109,7 @@ footer {
      <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
      <li><a href="setup.html">Setup</a></li>
      <li><a href="elado.html">Eladó cuccok</a></li>
-        <li><a>Házi feladatok:</a></li>
+     <li class="hf">Házi feladatok: →</li>
      <li><a href="keplink.html">Képlink</a></li>
      <li><a href="lista.html">Lista</a></li>
      <li><a class="active" href="orarend.html">Órarend</a></li>
@@ -102,74 +134,72 @@ footer {
   <tr>
     <td>0.óra 7:15-8:00</td>
     <td></td>
+    <td>Digitális kultúra</td>
     <td></td>
     <td></td>
-    <td>Programozási alapok</td>
     <td>Testnevelés</td>
    </tr>
    <tr>
     <td>1.óra 8:00-8:45</td>
-    <td></td>
-    <td>Matek</td>
-    <td>Informatika és távközlési alapok</td>
-    <td>Programozási alapok</td>
+    <td>Angol</td>
+    <td>Digitális kultúra</td>
+    <td>Nyelvtan</td>
+    <td>Nyelvtan</td>
     <td>Testnevelés</td>
    </tr>
    <tr>
     <td>2.óra 8:55-9:40</td>
-    <td>Irodalom</td>
-    <td>Nyelvtan</td>
-    <td>Informatika és távközlési alapok</td>
-    <td>Irodalom</td>
-    <td>Digitális kultúra</td>
+    <td>Töri</td>
+    <td>Prog alapok</td>
+    <td>Matek</td>
+    <td>Angol</td>
+    <td>Töri</td>
    </tr>
    <tr>
     <td>3.óra 9:50-10:35</td>
-    <td>Komplex természet tudomány</td>
-    <td>Angol</td>
-    <td>Informatika és távközlési alapok</td>
-    <td>Magyar nyelv és irodalom (kompetencia fejlesztés)</td>
-    <td>Digitális kultúra</td>
+    <td>Irodalom</td>
+    <td>Prog alapok</td>
+    <td>Komplex</td>
+    <td>Irodalom</td>
+    <td>Komplex</td>
    </tr>
    <tr>
     <td>4.óra 10:45-11:30</td>
-    <td>Osztályfőnöki</td>
-    <td>Matek (kompetencia fejlesztés)</td>
-    <td>Komplex természet tudomány</td>
-    <td>Nyelvtan</td>
-    <td>Komplex természet tudomány</td>
+    <td>Tesi</td>
+    <td>Matek</td>
+    <td>Távközlés</td>
+    <td>Tesi</td>
+    <td>Magyar(komp)</td>
    </tr>
    <tr>
     <td>5.óra 11:40-12:25</td>
-    <td>Munkavállalói ismeretek</td>
-    <td>Töri</td>
+    <td>Osztályfőnöki</td>
     <td>Angol</td>
-    <td>Angol</td>
-    <td>Töri</td>
+    <td>Távközlés</td>
+    <td>IKT projektmunka</td>
+    <td>Matek</td>
    </tr>
    <tr>
     <td>6.óra 12:45-13:30</td>
     <td>Matek</td>
-    <td>Tesi</td>
-    <td>Matek</td>
-    <td>Tesi</td>
-    <td>Matek</td>
+    <td>Töri</td>
+    <td>Távközlés</td>
+    <td>Komplex</td>
+    <td>Matek(komp)</td>
    </tr>
    <tr>
     <td>7.óra 13:35-14:20</td>
-    <td>Angol</td>
     <td>IKT projektmunka</td>
     <td></td>
-    <td>Töri</td>
+    <td>Angol</td>
+    <td></td>
     <td></td>
    </tr>
 </table>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>
-    <footer>
-            <p>Az oldalt készítette: Izsépi Dávid<br>
-            <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
-          </footer>
-        </p>
+<p>
+<footer>
+  <p>Az oldalt készítette: Izsépi Dávid<br>
+  <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
+</footer></p>
 </body>
 </html>
