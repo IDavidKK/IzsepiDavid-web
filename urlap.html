@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="minden.css">
     <title>Űrlap</title>
     <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
@@ -11,113 +11,14 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<style>
-
-html {
-height: 100%;
-box-sizing: border-box;
-}
-
-body {
-background-image: url('kepek/background3.jpg');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
-position: relative;
-margin: 0;
-min-height: 100%;
-padding-bottom: 0;
-box-sizing: inherit;
-}
-
-.urlap1p {
-color:white;
-text-align: center;
-}
-
-p {
-text-align: center;
-color: white;
-}
-
-
-.urlaph1 {
-text-align: center;
-text-shadow: 0 0 3px rgb(124, 104, 238);
-}
-     
-.urlaph3 {
-text-align: center;
-color: rgb(0, 0, 0);
-text-shadow: 0 0 3px rgb(255, 255, 255);
-}
-
-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-}
-
-li {
-float: left;
-}
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-li a:hover:not(.active) {
-background-color: rgb(124, 104, 238);
-}
-
-.active {
-background-color: #000000;
-}
-
-footer {
-text-align: center;
-padding: 3px;
-background-color: #333;
-color: rgb(255, 255, 255);
-border-style: solid;
-border-color: rgb(124, 104, 238);
-border-width: 1px;
-position: absolute;
-bottom: 0%;
-right: 0%;
-left: 0%;
-}
-
-.hf {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-float: left;
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-
-</style>
 </head>
 <body>
-       <p>
+
         <ul>
          <li><a href="index.html">Home</a></li>
          <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
          <li><a href="setup.html">Setup</a></li>
-         <li><a href="elado.html">Eladó cuccok</a></li>
-         <li class="hf">Házi feladatok: →</li>
+         <li class="hf">← Házi feladatok ←</li>
          <li><a href="keplink.html">Képlink</a></li>
          <li><a href="lista.html">Lista</a></li>
          <li><a href="orarend.html">Órarend</a></li>
@@ -125,76 +26,76 @@ text-decoration: none;
          <li><a href="evszak.html">Évszakok</a></li>
          <li><a href="szamologep.html">Számológép</a></li>
         </ul>
-       </p>
 
-    <div class="urlaph1">
-        <h1>Menő Játék</h1>
-    </div>
+<div class="urlaph1">
+<h1>Menő Játék</h1>
+</div>
 
 <div class="urlaph3"><p>
 <h3>Személyes adatok</h3>
 </p></div>
 
-<p>
+<p class="urlapp">
     Vezetéknév:
     <input type='text'>
 </p>
-<p>
+<p class="urlapp">
     Keresztnév: 
     <input type='text'>
 </p>
-<p>
+<p class="urlapp">
     Születési idő:
 <input type='date'>
 </p>
-<p>
+<p class="urlapp">
     e-mail:
     <input type='email'>
 </p>
-<p>
+<p class="urlapp">
     Telefonszám:
     <input type='text'>
 </p>
-<p>
-    Profilkép 
-    <input type='file'>
-</p>
+
 <div class="urlaph3">
-<p>
+<p class="urlapp">
     <h3>Játék adatok</h3>
 </p>
 </div>
-<p>
+<p class="urlapp">
     Felhasználónév:
     <input type='text'>
 </p>
-<p>
+<p class="urlapp">
+    Profilkép 
+    <input type='file'>
+</p>
+<p class="urlapp">
     Karakter neme:
 <input type='radio' name='gender'> fiú
 <input type='radio' name='gender'> lány
 </p>
-<p>
+<p class="urlapp">
     Karakter magassága:
 </p>
-<p>
+<p class="urlapp">
 <input type='range'>
 </p>
-<p>
+<p class="urlapp">
 150-200cm
 </p>
-<p>
+<p class="urlapp">
     Jelszó:
     <input type='password'>
 </p>
-<p>
+<p class="urlapp">
     Jelszó megerősítés:
     <input type='password'>
 </p>
-<p>
+<p class="urlapp">
     Álltalános szerződési feltételek:
     <input type='checkbox'> Egyetértek...
 </p>
-<p>
+<p class="urlapp">
     <select title='Válassz nyelvet!'>
         <option disabled=disable selected>Válassz nyelvet!</option>
     
@@ -208,7 +109,7 @@ text-decoration: none;
         </optgroup>
     </select>
 </p>
-<p>
+<p class="urlapp">
 <input type='submit' value="Létrehozás">
 </p>
 </div>

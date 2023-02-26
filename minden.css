@@ -1,0 +1,335 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    }
+    
+body {
+    background-image: url('kepek/background3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom:0px;
+    box-sizing: inherit;
+    }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(124, 104, 238);
+    border-width: 1px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #33333300;
+    }
+        
+li {
+    float: right;
+    }
+        
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10px;
+    }
+        
+li a:hover:not(.active) {
+    background-color: rgb(124, 104, 238);
+    padding-right: 25px;
+    padding-left: 25px;
+
+    }
+        
+.active {
+    background-color: rgb(124, 104, 238);
+    padding-right: 25px;
+    padding-left: 25px;
+    }
+
+.hf {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333300;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    .idkep {
+    text-align: center;
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 3px 3px;
+    width: 600px;
+    height: 750px;
+    margin: auto;
+    }
+
+.idh1 {
+    color: rgb(124, 104, 238);
+    padding-left: 10px;
+    }
+        
+.idh2 {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    }
+    
+    .setupli {
+    color: rgb(255, 255, 255);
+    }
+            
+.setupul {
+    color: rgb(255, 255, 255);
+    }
+    
+.setuph1 {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    }
+    
+.setuph2 {
+    color: #000000;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    }
+    
+.setup1 {
+    text-align: center;
+    width:"700";
+    height:"500";
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    }
+    
+.setup2 {
+    text-align: center;
+    width:"700";
+    height:"500";
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 700px;
+    height: 850px;
+    margin: auto;
+    }
+    
+.setup3 {
+    text-align: center;
+    width:"700";
+    height:"500";
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    }
+
+    .keplinkh1 {
+    color: #000000;
+    text-shadow:0 0 3px rgb(124, 104, 238);
+    text-align: center;
+    }
+
+.brabuskep {
+    text-align: center;
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 1px 1px;
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+    }
+
+
+    .listah2 {
+    color:rgb(0, 0, 0);
+    text-shadow:0 0 3px rgb(255, 255, 255);
+    }
+        
+.listah1 {
+    color: #000000;
+    text-shadow:0 0 3px rgb(124, 104, 238);
+    text-align: center;
+    }
+
+ul.listaul {
+    color:rgb(255, 255, 255);
+    }
+        
+ol.listaol {
+    color:rgb(255, 255, 255);
+    }
+
+
+    .orarendh1 {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    }
+           
+tr {
+    color:rgb(255, 255, 255);
+    }
+
+.table, th, td {
+    border:1px solid rgb(124, 104, 238);
+    text-align: center;
+    }
+
+
+    .urlapp {
+    text-align: center;
+    color: white;
+    }
+        
+        
+.urlaph1 {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    }
+             
+.urlaph3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    }
+
+
+    .evszakok {
+    color:#000000;
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    text-align: center;
+    }
+        
+.winter {
+    border: 1px dotted rgb(0, 0, 0);
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    float: left;
+    color: rgb(0, 0, 0);
+    background-image: url('kepek/forza.winter.jpg');
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    margin: 10px;
+    margin-left: 95px;
+    margin-right: 50px;
+    border-color:rgb(124, 104, 238) ;
+    transition: 0.5s;
+    }
+        
+.winter:hover {
+    transform: scale(110%);
+    }
+        
+.spring {
+    border: 1px dotted rgb(0, 0, 0);
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-image: url('kepek/forza.spring.jpg');
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-color:rgb(124, 104, 238) ;
+    transition: 0.5s;
+    }
+        
+.spring:hover {
+    transform: scale(110%);
+    }
+        
+.summer {
+    border: 1px dotted rgb(0, 0, 0);
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    float: left;
+    color: rgb(0, 0, 0);
+    background-image: url('kepek/forza.summer.jpg');
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-color:rgb(124, 104, 238) ;
+    transition: 0.5s;
+    }
+        
+.summer:hover {
+    transform: scale(110%);
+    }
+        
+.autumn {
+    border: 1px dotted rgb(0, 0, 0);
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    float: left;
+    color: rgb(0, 0, 0);
+    background-image: url('kepek/forza.autumn.jpg');
+    background-size: 350px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-color:rgb(124, 104, 238) ;
+    transition: 0.5s;
+    }
+        
+.autumn:hover {
+    transform: scale(110%);
+    }
+
+
+    .szamolh1 {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    }
+
+fieldset{
+    background-color: rgb(0, 0, 0);
+    }
+                
+legend{
+    color: rgb(124, 104, 238);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    }
