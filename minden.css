@@ -29,7 +29,7 @@ footer {
     left: 0%;
     }
 
-ul {
+.menu ul {
     list-style-type: none;
     margin: 5px;
     padding: 10px;
@@ -37,11 +37,11 @@ ul {
     background-color: #33333300;
     }
         
-li {
+.menu li {
     float: right;
     }
         
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
@@ -51,7 +51,7 @@ li a {
     border-radius: 10px;
     }
         
-li a:hover:not(.active) {
+.menu li a:hover:not(.active) {
     background-color: rgb(124, 104, 238);
     padding-right: 25px;
     padding-left: 25px;
@@ -114,6 +114,7 @@ li a:hover:not(.active) {
 .setuph2 {
     color: #000000;
     text-shadow: 0 0 3px rgb(255, 255, 255);
+    margin-left: 15px;
     }
     
 .setup1 {
@@ -172,6 +173,7 @@ li a:hover:not(.active) {
     .listah2 {
     color:rgb(0, 0, 0);
     text-shadow:0 0 3px rgb(255, 255, 255);
+    margin-left: 15px;
     }
         
 .listah1 {
