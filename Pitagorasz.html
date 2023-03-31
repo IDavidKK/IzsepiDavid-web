@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="minden.css">
+    <title>ID.web</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="setup.html">Setup</a></li>
+          <li><a href="https://www.instagram.com/zspdvd/" target="_blank">Instagram</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)"
+        class="dropbtn">Házi feladatok</a>
+            <div class="dropdown-content">
+              <a href="keplink.html">Képlink</a>
+              <a href="lista.html">Lista</a>
+              <a href="orarend.html">Órarend</a>
+              <a href="urlap.html">Űrlap</a>
+              <a href="evszak.html">Évszakok</a>
+              <a href="szamologep.html">Számológép</a>
+              <a class="active" href="Pitagorasz.html">Pitagorasz tétel</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <h1 class="pitah1">Pitagorasz tétel</h1>
+    <img class="pitapng" src="kepek/pita.png">
+    <form>
+        <p class="eredmeny1">
+            A oldal hossza: <input type="number" id="a">
+            <br>
+            B oldal hossza: <input type="number" id="b">
+            <br>
+            C oldal hossza: <input type="number" id="c">
+            <br><br>
+            <button type="button" onclick="calculate()">Számolás</button>
+            <button type="reset">Törlés</button>
+        </p>
+        <p class="eredmeny1">
+          Az eredmény: <span id="result"></span>
+        </p>
+    </form>
+
+    <script>
+        function calculate() {
+            // Az A, B és C oldal hossza
+            var a = parseFloat(document.getElementById("a").value);
+            var b = parseFloat(document.getElementById("b").value);
+            var c = parseFloat(document.getElementById("c").value);
+
+            // Ellenőrizzük, hogy legalább két oldal hosszát ismertük meg
+            if (isNaN(a) || isNaN(b)) {
+                if (isNaN(b) || isNaN(c)) {
+                    if (isNaN(a) || isNaN(c)) {
+                        document.getElementById("result").innerHTML = "Kérem adjon meg legalább két oldalt!";
+                        return;
+                    } else {
+                        a = parseFloat(document.getElementById("a").value);
+                        c = parseFloat(document.getElementById("c").value);
+                        b = Math.sqrt(c*c - a*a);
+                    }
+                } else {
+                    b = parseFloat(document.getElementById("b").value);
+                    c = parseFloat(document.getElementById("c").value);
+                    a = Math.sqrt(c*c - b*b);
+                }
+            } else {
+                c = Math.sqrt(a*a + b*b);
+            }
+
+            // Kiírjuk az eredményt
+            document.getElementById("result").innerHTML = "C oldal hossza: " + c.toFixed(2) + ", A oldal hossza: " + a.toFixed(2) + ", B oldal hossza: " + b.toFixed(2);
+        }
+    </script>
+
+<p>
+    <footer>
+      <p>Az oldalt készítette: Izsépi Dávid<br>
+      <a href="https://www.google.com/gmail/about/" style="color: white;">izsepid@kkszki.hu</a></p>
+    </footer></p>
+</body>
+</html>

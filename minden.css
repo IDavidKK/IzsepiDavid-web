@@ -354,3 +354,20 @@ legend{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 5px;
     }
+
+    .pitah1{
+    text-shadow: 0 0 3px rgb(124, 104, 238);
+    text-align: center;
+    }
+
+.eredmeny1{
+    color:white;
+    text-align: center;
+    }
+        
+.pitapng{
+    text-align: center;
+    border: rgb(124, 104, 238);
+    border-style: solid;
+    border-width: 1px 1px;
+    }
