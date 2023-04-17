@@ -112,20 +112,24 @@ footer {
     color:black;
     text-shadow:0 0 3px rgb(124, 104, 238);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .idh1 {
     color: rgb(124, 104, 238);
     padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .idh2 {
     color: rgb(255, 255, 255);
     padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
     .setupli {
     color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
           
     .spec{
@@ -139,12 +143,14 @@ footer {
 .setuph1 {
     text-align: center;
     text-shadow: 0 0 3px rgb(124, 104, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
 .setuph2 {
     color: #000000;
     text-shadow: 0 0 3px rgb(255, 255, 255);
     margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
 .setupkep {
@@ -163,6 +169,7 @@ footer {
     color: #000000;
     text-shadow:0 0 3px rgb(124, 104, 238);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 .brabuskep {
@@ -180,12 +187,14 @@ footer {
     color:rgb(0, 0, 0);
     text-shadow:0 0 3px rgb(255, 255, 255);
     margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .listah1 {
     color: #000000;
     text-shadow:0 0 3px rgb(124, 104, 238);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 ul.listaul {
@@ -200,10 +209,12 @@ ol.listaol {
     .orarendh1 {
     text-align: center;
     text-shadow: 0 0 3px rgb(124, 104, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
          
 tr {
     color:rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 .table, th, td {
@@ -221,12 +232,14 @@ tr {
 .urlaph1 {
     text-align: center;
     text-shadow: 0 0 3px rgb(124, 104, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
              
 .urlaph3 {
     text-align: center;
     color: rgb(0, 0, 0);
     text-shadow: 0 0 3px rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 
@@ -234,6 +247,7 @@ tr {
     color:#000000;
     text-shadow: 0 0 3px rgb(124, 104, 238);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .winter {
@@ -252,6 +266,7 @@ tr {
     margin-right: 50px;
     border-color:rgb(124, 104, 238) ;
     transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .winter:hover {
@@ -274,6 +289,7 @@ tr {
     margin-right: 50px;
     border-color:rgb(124, 104, 238) ;
     transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .spring:hover {
@@ -296,6 +312,7 @@ tr {
     margin-left: 50px;
     border-color:rgb(124, 104, 238) ;
     transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .summer:hover {
@@ -318,6 +335,7 @@ tr {
     margin-right: 50px;
     border-color:rgb(124, 104, 238) ;
     transition: 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .autumn:hover {
@@ -328,6 +346,7 @@ tr {
     .szamolh1 {
     text-align: center;
     text-shadow: 0 0 3px rgb(124, 104, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 fieldset{
@@ -347,11 +366,13 @@ legend{
     .pitah1{
     text-shadow: 0 0 3px rgb(124, 104, 238);
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
 .eredmeny1{
     color:white;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
         
 .pitapng{
