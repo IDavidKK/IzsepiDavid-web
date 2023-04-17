@@ -15,7 +15,7 @@ body {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: #333;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     border-style: solid;
     border-color: rgb(124, 104, 238);
@@ -58,13 +58,14 @@ footer {
     background-color: rgb(124, 104, 238);
     padding-right: 25px;
     padding-left: 25px;
-
+    color: black;
     }
         
 .menu .active {
     background-color: rgb(124, 104, 238);
     padding-right: 25px;
     padding-left: 25px;
+    color: black;
     }
 
 .menuli.dropdown {
