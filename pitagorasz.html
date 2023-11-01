@@ -2,11 +2,10 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="minden.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Számológép</title>
+    <title>ID.web</title>
     <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
@@ -19,8 +18,8 @@
     <div class="menu">
         <ul>
           <img class="idlogo" width="100" src="kepek/logo.png">
-          <li><a href="rolam.html">Home</a></li>
-          <li><a href="setup.html">Setup</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rolam.html">Setup</a></li>
           <li><a href="https://www.instagram.com/zsp_david/" target="_blank">Instagram</a></li>
           <li class="dropdown">
             <a href="javascript:void(0)"
@@ -33,49 +32,60 @@
               <a href="urlap.html">Űrlap</a>
               <a href="evszak.html">Évszakok</a>
               <a href="szamologep.html">Számológép</a>
-              <a href="pitagorasz.html">Pitagorasz tétel</a>
+              <a class="active" href="pitagorasz.html">Pitagorasz tétel</a>
             </div>
           </li>
         </ul>
     </div>
 </header>
-       <div class="szamolh1">
-        <h1 strong style="color:rgb(0, 0, 0);">Számológép</h1>
-     </div>
-    <form action="javascript:void(0)">
-        <fieldset>
-            <legend>Számológép</legend>
+      <h1 class="pitah1">Pitagorasz tétel</h1>
+    <img class="pitapng" src="kepek/pita.png">
+    <form>
+        <p class="eredmeny1">
+            A oldal hossza: <input type="number" id="a">
             <br>
-            <input type="number" name="sz" id="a" placeholder="szám1" requiredg>
-            <input type="number" name="sz" id="b" placeholder="szám2" required>
-            <input type="text" name="sz" id="c" placeholder="eredmény" readonly>
+            B oldal hossza: <input type="number" id="b">
+            <br>
+            C oldal hossza: <input type="number" id="c">
             <br><br>
-            <input type="submit" value="+" onclick="ad()">
-            <input type="submit" value="-" onclick="ki()">
-            <input type="submit" value="*" onclick="szor()">
-            <input type="submit" value="/" onclick="oszt()">
-            <input type="reset" value="törlés">
-        </fieldset>
+            <button type="button" onclick="calculate()">Számolás</button>
+            <button type="reset">Törlés</button>
+        </p>
+        <p class="eredmeny1">
+          Az eredmény: <span id="result"></span>
+        </p>
     </form>
-
     <script>
-        function ad() {
-            c.value = Number(a.value) + Number(b.value)
-        }
+        function calculate() {
+            // Az A, B és C oldal hossza
+            var a = parseFloat(document.getElementById("a").value);
+            var b = parseFloat(document.getElementById("b").value);
+            var c = parseFloat(document.getElementById("c").value);
 
-        function ki() {
-            c.value = Number(a.value) - Number(b.value)
-        }
+            // Ellenőrizzük, hogy legalább két oldal hosszát ismertük meg
+            if (isNaN(a) || isNaN(b)) {
+                if (isNaN(b) || isNaN(c)) {
+                    if (isNaN(a) || isNaN(c)) {
+                        document.getElementById("result").innerHTML = "Kérem adjon meg legalább két oldalt!";
+                        return;
+                    } else {
+                        a = parseFloat(document.getElementById("a").value);
+                        c = parseFloat(document.getElementById("c").value);
+                        b = Math.sqrt(c*c - a*a);
+                    }
+                } else {
+                    b = parseFloat(document.getElementById("b").value);
+                    c = parseFloat(document.getElementById("c").value);
+                    a = Math.sqrt(c*c - b*b);
+                }
+            } else {
+                c = Math.sqrt(a*a + b*b);
+            }
 
-        function szor() {
-            c.value = Number(a.value) * Number(b.value)
+            // Kiírjuk az eredményt
+            document.getElementById("result").innerHTML = "C oldal hossza: " + c.toFixed(2) + ", A oldal hossza: " + a.toFixed(2) + ", B oldal hossza: " + b.toFixed(2);
         }
-
-        function oszt() {
-            c.value = Number(a.value) / Number(b.value)
-        }
-    </script> 
-
+    </script>
 <footer>
     <p>
     <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">- Az oldalt készítette: Izsépi Dávid -</h4>
