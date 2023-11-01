@@ -22,7 +22,7 @@ footer {
     left: 0px;
     border: rgb(124, 104, 238);
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
     border-left: #000000;
     border-right: #000000;
     border-bottom: #000000;
@@ -51,7 +51,7 @@ footer {
     border-top: #000000;
     border-left: #000000;
     border-right: #000000;
-    border-width: 2px;
+    border-width: 4px;
 }
         
 .menu li {
@@ -121,35 +121,33 @@ footer {
 .idkep {
     border: rgb(124, 104, 238);
     border-style: solid;
-    border-width: 3px 3px;
-    width: 500px;
-    margin-right: 25px;
-}
+    border-width: 3px;
+    width: "700";
+    height: "400";
+    margin-left: 15px;
 
-.rolamhatter{
-    background-color: #00000073;
-    border-radius: 10px;
 }
 
 .rolamh1{
     color:black;
-    text-shadow:0 0 3px rgb(124, 104, 238);
+    text-shadow:0 0 3px rgb(255, 255, 255);
     text-align: center;
     
 }
 
 .rolamh5{
     color: white;
-    margin-left: 10px;
+    font-size: 17px;
+    margin-left: 15px;
 }
 
 .idh1 {
-    color: rgb(124, 104, 238);
+    color: rgb(255, 255, 255);
     padding-left: 10px;
 }
         
 .idh2 {
-    color: rgb(255, 255, 255);
+    color: rgb(124, 104, 238);
     padding-left: 10px;
 }
     
@@ -159,6 +157,7 @@ footer {
 
 .setupli {
     color: rgb(255, 255, 255);
+    font-size: 17px;
 }
  
 .spec{
@@ -167,7 +166,7 @@ footer {
     
 .setuph1 {
     text-align: center;
-    text-shadow: 0 0 3px rgb(124, 104, 238);
+    text-shadow: 0 0 3px rgb(255, 255, 255);
 }
     
 .setuph2 {
@@ -177,9 +176,6 @@ footer {
 }
     
 .setupkep {
-    border: rgb(124, 104, 238);
-    border-style: solid;
-    border-width: 1px 1px;
     width: "700";
 }
     
